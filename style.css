@@ -1,0 +1,36 @@
+.product-card {
+    width: 500px;
+    height: 700px;
+    background: rgb(221, 165, 145);
+    border: 3px solid springgreen;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+.old-price {
+    color: gray;
+    text-decoration: line-through;
+    margin-right: 30px;
+}
+
+.new-price {
+    color: red;
+    font-weight: bold;
+
+}
+
+h1 {
+    color: black;
+    margin: 150px;
+    margin-bottom: 10px;
+
+ 
+}
+
+h2 {
+
+    font-size: 15px;
+    color: black;
+    margin-left: 20px;
+
+}
