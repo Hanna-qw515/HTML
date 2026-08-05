@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav-default a{
+           background-color: blueviolet;
+           padding: 5px;
+
+        }
+        .nav-block a{
+            display: block;
+           background-color: rgb(43, 198, 226);
+           padding: 5px;
+           margin-bottom: 7px;
+
+        }
+        .nav-inline-divs div{
+            display: inline;
+           background-color: rgb(171, 226, 43);
+           padding: 5px;
+           border: 1px solid  gray;
+
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div>
+        <p><strong>Ссылки по умолчанию (строчные — в ряд):</strong></p>
+        <div class="nav-default">
+            <a href="#">Главная</a>
+            <a href="#">Каталог</a>
+            <a href="#">Контакты</a>
+        </div>
+        <p><strong>Ссылки s display block:</strong></p>
+        <div class="nav-block">
+            <a href="#">Главная</a>
+            <a href="#">Каталог</a>
+            <a href="#">Контакты</a>
+        </div>
+        <div>
+            <p><strong>Ссылки по умолчанию (строчные — в ряд):</strong></p>
+            <div class="nav-inline-divs">
+                <div>Block1</div>
+                <div>Block2</div>
+                <div>Block3</div>
+
+            </div>
+        </div>
+</body>
+
+</html>
